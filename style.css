@@ -1,0 +1,106 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+body {
+    background-image:linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-align: center;
+
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    color : #d14876;
+}
+
+h1 {font-size: 238 px;
+    font-weight: 900;
+}
+
+h2 {font-size: 238 px;
+    font-weight: 900;
+} 
+
+h3 {font-size: 238 px;
+    font-weight: 900;
+}
+
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+
+.card-white {
+    background-color:#ffffff;
+    text-align: center;
+    border-radius: 35px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    list-style: 1.4;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+
+.card-white img{
+    height: 200px;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.btn-violet {
+    background-color: rgb(95, 56, 99);
+    color : white;
+    border-radius : 4px;
+    padding: 15px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-violet:hover {
+    background-color: rgb(205, 147, 219);
+}
+
+#emma-picture {
+    width: 205px;
+    border-radius: 50%;
+}
+
+#digital {
+    border-radius: 50px;
+}
+
+#intro {
+    margin-bottom: 40px;
+}
+
+.list-inline {
+    list-style: none;
+    padding: left 0px;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline {
+    font-size: 50px;
+    color: #fdcbf1;
+    letter-spacing: 30px;
+        }
+.list-inline{
+    color: #d14876;
+}
+
